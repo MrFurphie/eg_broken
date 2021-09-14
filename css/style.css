@@ -1,8 +1,10 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color: #444;
+  color: #488;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 p {
   margin-bottom: .67em;
@@ -19,6 +21,10 @@ footer {
 nav ul {
   list-style: none;
   padding: 1em;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 nav a:link, nav a:visited {
   color: #D0D0D0;
@@ -36,10 +42,16 @@ header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
 }
 header img {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 header h1 {
   margin: 0 auto;
@@ -64,6 +76,10 @@ article figcaption {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 a.button {
   border: 1px solid #888;
@@ -78,7 +94,7 @@ a.button {
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
-  color: #222;
+  color: #111;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
